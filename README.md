@@ -9,14 +9,12 @@ Proyecto integrador de Desarrollo Web Frontend. Landing page de una librería ar
 ```
 libreria/
 ├── index.html          # Estructura semántica (sin CSS ni JS embebido)
-├── css/
-│   └── styles.css      # Estilos: variables, Flexbox, Grid, tema oscuro, responsive
-├── js/
-│   └── app.js          # Lógica: render, API, carrito, validación, UI
-└── README.md           # Esta documentación
+├── styles.css   # Estilos: variables, Flexbox, Grid, tema oscuro, responsive
+├── app.js        # Lógica: render, API, carrito, validación, UI
+└── README.md     # Esta documentación
 ```
 
-> Separación de responsabilidades: estructura (HTML), presentación (CSS) y comportamiento (JS) viven en archivos distintos. La versión anterior tenía el CSS duplicado dentro del `<head>`; eso se eliminó.
+> Separación de responsabilidades: estructura (HTML), presentación (CSS) y comportamiento (JS) viven en archivos distintos. Los archivos viven en la raíz del repositorio para simplificar el deploy en GitHub Pages.
 
 ---
 
